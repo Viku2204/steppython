@@ -5,9 +5,7 @@
     #print(a*b)
 
 #fun()
-string1 = "Hello"
-string2 = "World"
-
-result = string1 + " " + string2
-
-print("Concatenated string:", result)
+name="vikas"
+age=20
+print(f"""my name is vikas kumar and i am persuing my degree in guru nanak dev engineering college in second year
+my name is {name} and i am {age} years old""")
