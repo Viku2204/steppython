@@ -1,6 +1,6 @@
 import sqlite3
 import random
-connect = sqlite3.connect("students.db")
+connect = sqlite3.connect("study.db")
 cursor = connect.cursor()
 
 cursor.execute('''
